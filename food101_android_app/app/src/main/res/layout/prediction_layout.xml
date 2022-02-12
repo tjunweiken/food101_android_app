@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/predictTitle"
+        android:layout_width="365dp"
+        android:layout_height="54dp"
+        android:text="Prediction"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/predictedImage"
+        android:layout_width="300dp"
+        android:layout_height="348dp"
+        android:layout_marginTop="15dp" />
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/predictionName"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:lineHeight="25dp"
+            android:textAlignment="textStart"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/prob"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:lineHeight="25dp"
+            android:text="98%\n20%\n0.1%"
+            android:textAlignment="textEnd"
+            android:textSize="19dp" />
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/photo_btn"
+        android:text="camera"
+        android:textColor="@color/white" />
+</LinearLayout>

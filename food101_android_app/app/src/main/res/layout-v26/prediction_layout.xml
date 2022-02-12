@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/predictTitle"
+        android:layout_width="365dp"
+        android:layout_height="54dp"
+        android:text="Prediction"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/predictedImage"
+        android:layout_width="300dp"
+        android:layout_height="348dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/predictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="15dp"
+        android:text="hamburger 100%\nfries 60%"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="109dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/photo_btn"
+        android:text="camera"
+        android:textColor="@color/white" />
+</LinearLayout>
